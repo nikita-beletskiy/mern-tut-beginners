@@ -1,0 +1,66 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.inputs {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #93fe83;
+}
+.inputs input {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  margin: 10px;
+  padding-left: 10px;
+}
+.inputs button {
+  border: none;
+  width: 150px;
+  height: 50px;
+  background-color: #13a90b;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.inputs button:hover {
+  cursor: pointer;
+}
+
+.friends {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.friend {
+  width: 500px;
+  height: 60px;
+  background-color: #13a90b;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+.friend h3 {
+  margin-left: 15px;
+}
+.friend .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
