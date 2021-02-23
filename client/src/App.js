@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const baseUrl = 'http://localhost:4000';
+const baseUrl = 'https://mern-tut-beginners.herokuapp.com';
 
 const App = () => {
   const [name, setName] = useState('');
